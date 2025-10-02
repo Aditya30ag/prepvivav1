@@ -31,7 +31,7 @@ export default function Testimonials() {
               Real Students. Real <span className="gradient-text">Success</span>.
             </h2>
             <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
-              Join thousands who've transformed their interview performance
+              Join thousands who&apos;ve transformed their interview performance
             </p>
           </div>
   
@@ -46,7 +46,7 @@ export default function Testimonials() {
                   ))}
                 </div>
                 
-                <p className="text-neutral-700 mb-6 italic">"{testimonial.quote}"</p>
+                <p className="text-neutral-700 mb-6 italic">&quot;{testimonial.quote}&quot;</p>
                 
                 <div className="flex items-center gap-3">
                   <div className="text-3xl">{testimonial.image}</div>

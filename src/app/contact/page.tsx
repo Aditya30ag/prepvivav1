@@ -140,7 +140,7 @@ export default function ContactPage() {
             <p className="text-lg mb-8 text-primary-100">
               Whether you need student support or want to scale PrepViva across your institution, we’re ready to help.
             </p>
-            <Button size="lg" variant="light">Start the Conversation</Button>
+            <Button size="lg" variant="secondary">Start the Conversation</Button>
           </div>
         </Container>
       </section>

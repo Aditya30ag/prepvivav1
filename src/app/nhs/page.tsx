@@ -3,7 +3,7 @@ import Container from '@/components/ui/Container'
 import Card from '@/components/ui/Card'
 import Badge from '@/components/ui/Badge'
 import Button from '@/components/ui/Button'
-import { NHS_VALUES, STATS } from '@/lib/constants'
+import { NHS_VALUES } from '@/lib/constants'
 import { generateMetaTags } from '@/lib/utils'
 
 export const metadata: Metadata = generateMetaTags(
@@ -159,15 +159,16 @@ export default function NHSPage() {
               ))}
             </div>
             <p className="text-center mt-8 text-neutral-600">
-              + {STATS.nhsTrusts} NHS Trusts using PrepViva for recruitment preparation
+              Trusted by NHS professionals across the UK for values-based interview preparation.
             </p>
           </div>
 
           {/* How It Works */}
           <div className="mb-20">
-            <h2 className="text-3xl font-bold text-center mb-12">
-              How NHS Interview Practice Works
-            </h2>
+            <h2 className="text-3xl font-bold text-center mb-4">Ready to Master Your NHS Interview?</h2>
+            <p className="text-center text-neutral-600 max-w-2xl mx-auto mb-12">
+              Practice with PrepViva to master your NHS interview. Our AI evaluates your responses against NHS values, leadership competencies, and clinical scenarios, providing instant feedback on how to improve.
+            </p>
             <div className="grid md:grid-cols-4 gap-8">
               <div className="text-center">
                 <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -214,15 +215,15 @@ export default function NHSPage() {
               <div>
                 <div className="text-5xl mb-4">👩‍⚕️</div>
                 <p className="text-lg italic mb-4">
-                  "After two unsuccessful Band 7 interviews, PrepViva helped me understand how to 
+                  &quot;After two unsuccessful Band 7 interviews, PrepViva helped me understand how to 
                   properly evidence NHS values. The AI feedback on my leadership examples was 
-                  game-changing. Started my new role at UCLH last month!"
+                  game-changing. Started my new role at UCLH last month!&quot;
                 </p>
                 <p className="font-bold">Rachel Thompson</p>
                 <p className="text-sm text-neutral-600">Band 7 Advanced Nurse Practitioner</p>
               </div>
               <div className="bg-accent-green/10 rounded-lg p-6">
-                <h3 className="font-bold mb-4">Rachel's Results</h3>
+                <h3 className="font-bold mb-4">Rachel&apos;s Results</h3>
                 <div className="space-y-3">
                   <div className="flex justify-between">
                     <span>Values demonstration:</span>
@@ -251,7 +252,7 @@ export default function NHSPage() {
               Ready to Ace Your NHS Interview?
             </h2>
             <p className="text-xl mb-8 text-green-50 max-w-2xl mx-auto">
-              Join thousands of NHS professionals who've secured their dream roles with PrepViva
+              Join thousands of NHS professionals who&apos;ve secured their dream roles with PrepViva
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 

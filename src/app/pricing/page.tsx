@@ -28,8 +28,8 @@ export default function PricingPage() {
     a: 'AI technology allows us to deliver the same structured practice at scale. We eliminate scheduling, travel, and hourly billing — passing savings directly to you.',
   },
   {
-    q: "Can I get a refund if I'm not satisfied?",
-    a: "Yes, we offer a full refund within 7 days if you're not satisfied with your first mock interview. For bundle purchases, we offer pro-rated refunds.",
+    q: 'Can I get a refund if I&apos;m not satisfied?',
+    a: 'Yes, we offer a full refund within 7 days if you&apos;re not satisfied with your first mock interview. For bundle purchases, we offer pro-rated refunds.',
   },
   {
     q: 'Do prices include VAT?',
@@ -265,9 +265,9 @@ export default function PricingPage() {
           <Card padding="lg" className="text-center mb-20">
             <div className="text-5xl mb-4">💬</div>
             <p className="text-xl italic mb-4 text-neutral-700">
-              "I spent £450 on three human coaching sessions last year and failed. 
-              This year I used PrepViva's 10-pack for £220 and got offers from Oxford and Cambridge. 
-              The AI feedback was more detailed than any human coach I'd used."
+              &quot;I spent £450 on three human coaching sessions last year and failed. 
+              This year I used PrepViva&apos;s 10-pack for £220 and got offers from Oxford and Cambridge. 
+              The AI feedback was more detailed than any human coach I&apos;d used.&quot;
             </p>
             <p className="font-bold">Emily Richardson</p>
             <p className="text-sm text-neutral-600">Medicine Offer Holder, Oxford & Cambridge</p>

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { termsAndConditionsData } from '@/lib/terms-data'
+import { termsAndConditionsData, type TermsSection, type TermsSubsection } from '@/lib/terms-data'
 
 export const metadata: Metadata = {
   title: 'Terms and Conditions - PrepViva',
@@ -25,7 +25,7 @@ export default function TermsAndConditions() {
             </div>
             <div className="mt-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
               <p className="text-sm text-blue-800">
-                <strong>Important Legal Notice:</strong> Please read these terms carefully before using PrepViva's services. By accessing or using our platform, you agree to be bound by these terms.
+                <strong>Important Legal Notice:</strong> Please read these terms carefully before using PrepViva&apos;s services. By accessing or using our platform, you agree to be bound by these terms.
               </p>
             </div>
           </div>
@@ -44,7 +44,7 @@ export default function TermsAndConditions() {
           <div className="mb-12 p-6 bg-neutral-50 border border-neutral-200 rounded-lg">
             <h2 className="text-xl font-bold text-neutral-900 mb-4">Table of Contents</h2>
             <nav className="space-y-2">
-              {termsAndConditionsData.sections.map((section) => (
+              {termsAndConditionsData.sections.map((section: TermsSection) => (
                 <div key={section.id}>
                   <a 
                     href={`#${section.id}`}
@@ -54,7 +54,7 @@ export default function TermsAndConditions() {
                   </a>
                   {section.subsections && (
                     <div className="ml-4 mt-1 space-y-1">
-                      {section.subsections.map((subsection) => (
+                      {section.subsections.map((subsection: TermsSubsection) => (
                         <a 
                           key={subsection.id}
                           href={`#${subsection.id}`}
@@ -72,7 +72,7 @@ export default function TermsAndConditions() {
 
           {/* Content Sections */}
           <div className="prose prose-lg max-w-none">
-            {termsAndConditionsData.sections.map((section) => (
+            {termsAndConditionsData.sections.map((section: TermsSection) => (
               <section key={section.id} id={section.id} className="mb-12">
                 <h2 className="text-2xl font-bold text-neutral-900 mb-6">
                   {section.title}
@@ -90,7 +90,7 @@ export default function TermsAndConditions() {
                 {/* Subsections */}
                 {section.subsections && (
                   <div className="space-y-8">
-                    {section.subsections.map((subsection) => (
+                    {section.subsections.map((subsection: TermsSubsection) => (
                       <div key={subsection.id} id={subsection.id} className="ml-0">
                         <h3 className="text-xl font-semibold text-neutral-900 mb-4">
                           {subsection.title}
@@ -116,7 +116,7 @@ export default function TermsAndConditions() {
                         {/* Nested subsections for minors section */}
                         {subsection.subsections && (
                           <div className="mt-6 ml-4 space-y-6">
-                            {subsection.subsections.map((nestedSubsection) => (
+                            {subsection.subsections?.map((nestedSubsection: TermsSubsection) => (
                               <div key={nestedSubsection.id} id={nestedSubsection.id}>
                                 <h4 className="text-lg font-medium text-neutral-900 mb-3">
                                   {nestedSubsection.title}

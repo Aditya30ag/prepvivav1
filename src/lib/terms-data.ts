@@ -1,20 +1,21 @@
 export interface TermsSection {
-  id: string;
-  title: string;
-  content: string[];
-  subsections?: TermsSubsection[];
+  readonly id: string;
+  readonly title: string;
+  readonly content: readonly string[];
+  readonly subsections?: readonly TermsSubsection[];
 }
 
 export interface TermsSubsection {
-  id: string;
-  title: string;
-  content: string[];
+  readonly id: string;
+  readonly title: string;
+  readonly content: readonly string[];
+  readonly subsections?: readonly TermsSubsection[];
 }
 
 export interface TermsSchedule {
-  id: string;
-  title: string;
-  content: string[];
+  readonly id: string;
+  readonly title: string;
+  readonly content: readonly string[];
 }
 
 export const termsAndConditionsData = {

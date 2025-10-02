@@ -244,15 +244,14 @@ export default function UniversityPage() {
             <div className="text-center">
               <div className="text-5xl mb-4">🎓</div>
               <p className="text-xl italic mb-6 max-w-3xl mx-auto">
-                &quot;PrepViva&apos;s Oxford PPE scenarios were identical to my actual interview. 
-                The AI helped me structure my arguments and think more critically. 
-                Got offers from both Oxford and LSE!"
+                &quot;PrepViva&apos;s Oxford PPE scenarios were identical to my actual interview. <br />
+                The AI helped me structure my arguments and think more critically. <br />
+                Got offers from both Oxford and LSE!&quot;
               </p>
               <p className="font-bold">Alexander Mitchell</p>
               <p className="text-sm text-neutral-600">Offer Holder – Oxford PPE & LSE</p>
             </div>
           </Card>
-
           {/* CTA */}
           <div className="text-center bg-primary-600 rounded-2xl p-12 text-white">
             <h2 className="text-3xl font-bold mb-4">
@@ -261,7 +260,7 @@ export default function UniversityPage() {
             <p className="text-lg mb-8 text-primary-100">
               Join the next generation of Oxbridge and Russell Group students. Practice today, succeed tomorrow.
             </p>
-            <Button size="lg" variant="light">
+            <Button size="lg" variant="secondary">
               Start Practice — £29 per mock
             </Button>
           </div>

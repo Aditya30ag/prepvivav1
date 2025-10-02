@@ -102,7 +102,7 @@ export default function AboutPage() {
                   feedback at 85% lower cost, making excellence achievable for everyone.
                 </p>
                 <p className="mt-4">
-                  We've trained our AI on 50,000+ successful UK interviews, incorporated GMC standards, NHS values, 
+                  We&apos;ve trained our AI on 50,000+ successful UK interviews, incorporated GMC standards, NHS values, 
                   and Oxbridge assessment frameworks. Every piece of feedback is reviewed by our expert panel 
                   to ensure it meets the highest standards.
                 </p>
@@ -160,7 +160,7 @@ export default function AboutPage() {
                 <div className="text-3xl mb-4">🎯</div>
                 <h3 className="text-xl font-bold mb-2">Accessibility</h3>
                 <p className="text-neutral-600">
-                  Elite preparation shouldn't be limited to those who can afford it. 
+                  Elite preparation shouldn&apos;t be limited to those who can afford it. 
                   We make world-class coaching available to everyone at £22-29 per session.
                 </p>
               </Card>

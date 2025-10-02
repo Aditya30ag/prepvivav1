@@ -8,7 +8,7 @@ export default function TrackingProvider({ children }: { children: React.ReactNo
 
   useEffect(() => {
     // Track page views
-    if (typeof window !== 'undefined' && window.gtag) {
+    if (typeof window !== 'undefined' && window.gtag && process.env.NEXT_PUBLIC_GA_ID) {
       window.gtag('config', process.env.NEXT_PUBLIC_GA_ID, {
         page_path: pathname,
       })
