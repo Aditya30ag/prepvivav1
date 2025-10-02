@@ -29,6 +29,7 @@ export default function Footer() {
               <li><Link href="/cookie-policy" className="hover:text-white transition">Cookie Policy</Link></li>
               <li><Link href="/privacy-policy" className="hover:text-white transition">Privacy Policy</Link></li>
               <li><Link href="/terms" className="hover:text-white transition">Terms of Service</Link></li>
+              <li><Link href="/dpa" className="hover:text-white transition">Data Processing Agreement</Link></li>
             </ul>
           </div>
           
