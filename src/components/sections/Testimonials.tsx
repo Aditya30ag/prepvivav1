@@ -11,14 +11,14 @@ export default function Testimonials() {
         name: 'Dr James Thompson',
         role: 'NHS Band 7 Specialist',
         image: '👨‍⚕️',
-        quote: "After three failed interviews, PrepViva helped me understand NHS values-based questions. Secured my dream role at Guy's and St Thomas'.",
+        quote: "After three failed interviews, PrepViva helped me understand NHS values-based questions. Secured my dream role at Guy&apos;s and St Thomas&apos;.",
         rating: 5
       },
       {
         name: 'Priya Patel',
         role: 'Cambridge Natural Sciences',
         image: '👩‍🔬',
-        quote: "The supervision-style questions were spot on. Practice with PrepViva meant I wasn't surprised by anything in my actual interview.",
+        quote: "The supervision-style questions were spot on. Practice with PrepViva meant I wasn&apos;t surprised by anything in my actual interview.",
         rating: 5
       }
     ]

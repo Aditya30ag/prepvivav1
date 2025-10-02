@@ -244,7 +244,7 @@ export default function UniversityPage() {
             <div className="text-center">
               <div className="text-5xl mb-4">🎓</div>
               <p className="text-xl italic mb-6 max-w-3xl mx-auto">
-                "PrepViva's Oxford PPE scenarios were identical to my actual interview. 
+                &quot;PrepViva&apos;s Oxford PPE scenarios were identical to my actual interview. 
                 The AI helped me structure my arguments and think more critically. 
                 Got offers from both Oxford and LSE!"
               </p>

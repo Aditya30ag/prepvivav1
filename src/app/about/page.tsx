@@ -8,7 +8,7 @@ import { generateMetaTags } from '@/lib/utils'
 
 export const metadata: Metadata = generateMetaTags(
   'About PrepViva - UK Interview Preparation Platform',
-  'Learn about PrepViva\'s mission to democratise interview preparation for UK students and NHS professionals.',
+  'Learn about PrepViva&apos;s mission to democratise interview preparation for UK students and NHS professionals.',
   ['About PrepViva', 'UK interview preparation company', 'Interview coaching mission']
 )
 
@@ -94,7 +94,7 @@ export default function AboutPage() {
                 <p>
                   PrepViva was born from frustration. As Oxford Medicine admissions tutors and NHS recruitment leads, 
                   we saw brilliant candidates fail interviews — not because they lacked ability, but because they 
-                  couldn't afford £150/hour coaching that their competitors had.
+                  couldn&apos;t afford £150/hour coaching that their competitors had.
                 </p>
                 <p className="mt-4">
                   Traditional interview coaching costs £150+ per hour, creating an unfair advantage for those 

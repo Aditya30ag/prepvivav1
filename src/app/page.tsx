@@ -1,30 +1,31 @@
 'use client'
-import { useState } from 'react'
+
 import { motion } from 'framer-motion'
+import { useState } from 'react'
 
 export default function Hero() {
   const [audience, setAudience] = useState<'student' | 'university' | 'nhs'>('student')
 
   const content = {
-    student: {
-      headline: "Transform Interview Anxiety Into Oxford Offers",
-      subhead: "AI that knows every UK interview format — from Oxbridge tutorials to NHS panels.",
-      cta1: "Start 45-min Mock — £29",
-      cta2: "Watch Demo Interview",
-    },
-    university: {
-      headline: "Scale Interview Training Across Your Institution",
-      subhead: "Deploy AI-powered preparation for entire cohorts with analytics and UK data compliance.",
-      cta1: "Request University Pilot",
-      cta2: "View Case Studies",
-    },
-    nhs: {
-      headline: "Master NHS Values-Based Interviews",
-      subhead: "Band 5 to Consultant — practice with scenarios built by NHS professionals.",
-      cta1: "Start NHS Practice",
-      cta2: "Explore NHS Values",
-    },
-  }
+  student: {
+    headline: "Transform Interview Anxiety Into Oxford Offers",
+    subhead: "AI that knows every UK interview format — from Oxbridge tutorials to NHS panels.",
+    cta1: "Start 45-min Mock — £29",
+    cta2: "Watch Demo Interview",
+  },
+  university: {
+    headline: "Scale Interview Training Across Your Institution",
+    subhead: "Deploy AI-powered preparation for entire cohorts with analytics and UK data compliance.",
+    cta1: "Request University Pilot",
+    cta2: "View Case Studies",
+  },
+  nhs: {
+    headline: "Master NHS Values-Based Interviews",
+    subhead: "Band 5 to Consultant — practice with scenarios built by NHS professionals.",
+    cta1: "Start NHS Practice",
+    cta2: "Explore NHS Values",
+  },
+};
 
   const current = content[audience]
 
@@ -148,7 +149,7 @@ export default function Hero() {
               <div className="bg-neutral-50 rounded-lg p-4 mb-4">
                 <p className="text-sm text-neutral-600 mb-2 font-medium">Current Question</p>
                 <p className="text-lg">
-                  "How would you approach a patient presenting with acute chest pain in A&E?"
+                  &quot;How would you approach a patient presenting with acute chest pain in A&E?&quot;
                 </p>
               </div>
 

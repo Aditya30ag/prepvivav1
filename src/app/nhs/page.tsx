@@ -30,10 +30,15 @@ export default function NHSPage() {
     'How do you balance competing priorities in a resource-limited environment?',
   ]
 
-  const trusts = [
-    "Guy's and St Thomas'", 'Imperial College Healthcare', 'Oxford University Hospitals',
-    'Cambridge University Hospitals', 'Manchester University', 'Leeds Teaching Hospitals',
-  ]
+ const trusts = [
+  "Guy's and St Thomas'",
+  "Imperial College Healthcare",
+  "Oxford University Hospitals",
+  "Cambridge University Hospitals",
+  "Manchester University",
+  "Leeds Teaching Hospitals",
+];
+
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-white via-accent-green/5 to-white">

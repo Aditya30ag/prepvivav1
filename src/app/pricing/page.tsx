@@ -23,27 +23,28 @@ export default function PricingPage() {
   ]
 
   const faqs = [
-    {
-      q: 'Why is PrepViva so much cheaper than human coaching?',
-      a: 'AI technology allows us to deliver the same structured practice at scale. We eliminate scheduling, travel, and hourly billing — passing savings directly to you.',
-    },
-    {
-      q: 'Can I get a refund if I\'m not satisfied?',
-      a: 'Yes, we offer a full refund within 7 days if you\'re not satisfied with your first mock interview. For bundle purchases, we offer pro-rated refunds.',
-    },
-    {
-      q: 'Do prices include VAT?',
-      a: 'Yes, all prices shown include VAT. No hidden fees or surprises at checkout.',
-    },
-    {
-      q: 'Are there discounts for students on benefits?',
-      a: 'Yes, we offer 30% discount for students receiving means-tested benefits. Email hello@prepviva.co.uk with proof of eligibility.',
-    },
-    {
-      q: 'Can I share my account with friends?',
-      a: 'Each account is personal to ensure accurate progress tracking. We offer group discounts for 3+ students booking together.',
-    },
-  ]
+  {
+    q: 'Why is PrepViva so much cheaper than human coaching?',
+    a: 'AI technology allows us to deliver the same structured practice at scale. We eliminate scheduling, travel, and hourly billing — passing savings directly to you.',
+  },
+  {
+    q: "Can I get a refund if I'm not satisfied?",
+    a: "Yes, we offer a full refund within 7 days if you're not satisfied with your first mock interview. For bundle purchases, we offer pro-rated refunds.",
+  },
+  {
+    q: 'Do prices include VAT?',
+    a: 'Yes, all prices shown include VAT. No hidden fees or surprises at checkout.',
+  },
+  {
+    q: 'Are there discounts for students on benefits?',
+    a: 'Yes, we offer 30% discount for students receiving means-tested benefits. Email hello@prepviva.co.uk with proof of eligibility.',
+  },
+  {
+    q: 'Can I share my account with friends?',
+    a: 'Each account is personal to ensure accurate progress tracking. We offer group discounts for 3+ students booking together.',
+  },
+];
+
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-white via-primary-50/10 to-white">

@@ -38,7 +38,7 @@ export function Analytics() {
 
 export function useAnalytics() {
   return {
-    trackEvent: (eventName: string, properties?: Record<string, any>) => {
+    trackEvent: (eventName: string, properties?: Record<string, string | number | boolean | null>) => {
       if (typeof window !== 'undefined' && window.gtag) {
         window.gtag('event', eventName, properties)
       }

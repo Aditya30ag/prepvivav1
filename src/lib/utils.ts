@@ -8,7 +8,7 @@ export function formatCurrency(amount: number, currency: string = '£'): string 
   return `${currency}${amount.toLocaleString('en-GB')}`
 }
 
-export function trackEvent(eventName: string, properties?: Record<string, any>) {
+export function trackEvent(eventName: string, properties?: Record<string, string | number | boolean | null>) {
   if (typeof window !== 'undefined' && window.gtag) {
     window.gtag('event', eventName, properties)
   }
